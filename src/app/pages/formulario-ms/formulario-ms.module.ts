@@ -6,7 +6,7 @@ import { IonicModule } from '@ionic/angular';
 
 import { FormularioMsPageRoutingModule } from './formulario-ms-routing.module';
 
-import { FormularioMsPage } from './formulario-ms.page';
+import { FormularioMSPage } from './formulario-ms.page';
 
 @NgModule({
   imports: [
@@ -15,6 +15,6 @@ import { FormularioMsPage } from './formulario-ms.page';
     IonicModule,
     FormularioMsPageRoutingModule
   ],
-  declarations: [FormularioMsPage]
+  declarations: [FormularioMSPage]
 })
 export class FormularioMsPageModule {}

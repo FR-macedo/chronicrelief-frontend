@@ -1,9 +1,19 @@
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
 @Injectable({
   providedIn: 'root'
 })
-export class FormularioMsService {
+export class FormularioMSService {
+  private apiUrl = 'http://localhost:3100/api/diario';
+  
+  constructor(private http: HttpClient) {}
 
-  constructor() { }
+  criarRegistroDiario(registro: any) {
+    return this.http.post(`${this.apiUrl}/create`, registro);
+  }
+
+  listarRegistrosDiarios() {
+    return this.http.get(this.apiUrl);
+  }
 }
