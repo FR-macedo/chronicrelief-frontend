@@ -1,0 +1,7 @@
+{
+  "name": "chronicrelief-frontend",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
