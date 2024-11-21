@@ -1,12 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-
-import { FormularioMsPage } from './formulario-ms.page';
+import { FormularioMSPage } from './formulario-ms.page';  // Note o MS maiúsculo
 
 const routes: Routes = [
   {
     path: '',
-    component: FormularioMsPage
+    component: FormularioMSPage
   }
 ];
 
@@ -14,4 +13,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule],
 })
-export class FormularioMsPageRoutingModule {}
+export class FormularioMsPageRoutingModule { }

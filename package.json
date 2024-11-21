@@ -27,6 +27,7 @@
     "@capacitor/keyboard": "6.0.3",
     "@capacitor/status-bar": "6.0.2",
     "@ionic/angular": "^8.4.0",
+    "chronicrelief-frontend": "file:",
     "install": "^0.13.0",
     "ionicons": "^7.0.0",
     "npm": "^10.9.0",
