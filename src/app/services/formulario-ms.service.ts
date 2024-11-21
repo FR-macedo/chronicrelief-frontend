@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class FormularioMSService {
-  private apiUrl = 'http://localhost:3100/api/diario';
+  private apiUrl = 'http://localhost:3100/diario';
   
   constructor(private http: HttpClient) {}
 

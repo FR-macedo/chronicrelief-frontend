@@ -7,7 +7,7 @@ import { Doenca } from '../models/doenca.model';
   providedIn: 'root',
 })
 export class DoencasService {
-  private apiUrl = 'http://localhost:3100/api/doencas';
+  private apiUrl = 'http://localhost:3100/doencas';
 
   constructor(private http: HttpClient) {}
 

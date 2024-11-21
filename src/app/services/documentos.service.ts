@@ -7,7 +7,7 @@ import { Documento } from '../models/documento.model';
   providedIn: 'root',
 })
 export class DocumentosService {
-  private apiUrl = 'http://localhost:3100/api/documentos';
+  private apiUrl = 'http://localhost:3100/documentos';
 
   constructor(private http: HttpClient) {}
 
